@@ -1,0 +1,26 @@
+body {
+    font-family: 'Lora', Serif;
+    color: rgb(45, 44, 54);
+}
+
+p {
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    color: rgb(45, 44, 54);
+    line-height: 19px;
+    
+}
+
+a {
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    color: rgb(28, 23, 74)
+}
+
+a:hover{
+    color: rgb(162, 64, 21)
+}
+a:visited{
+    color:rgb(108, 42, 14)
+}
+
