@@ -21,6 +21,7 @@ blockquote {
     border-left: 3px solid firebrick;
     padding: 30px;
     margin: 80px;
+    font-style: italic;
 }
 
 p {
@@ -37,10 +38,10 @@ a {
     color: rgb(28, 23, 74)
 }
 
-a:hover{
+a:hover {
     color: rgb(162, 64, 21)
 }
-a:visited{
+a:visited {
     color:rgb(108, 42, 14)
 }
 
@@ -55,3 +56,58 @@ q {
 .farmer {
     border-left: 3px solid navy;
 }
+
+.good {
+    text-transform: capitalize;
+    color: green;
+}
+
+.bad {
+    text-transform: capitalize;
+    color: red;
+}
+
+h1:first-child {
+    background-color: yellow;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+tr:nth-child(even) {
+    background-color: grey;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+li:nth-child(1) {
+    background-image: url("/bien.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    padding-right: 1px;
+}
+
+li:nth-child(2) {
+    background-image: url("/mal.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    padding-right: 1px;
+}
+
+li:nth-child(3) {
+    background-image: url("/chat.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    padding-right: 1px;
+}
+ /*tried using :first-child instead of :first-of-type but it wasn't showing*/
+p:first-of-type {
+    font-weight: bold;
+}
+
+
