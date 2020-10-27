@@ -44,3 +44,14 @@ a:visited{
     color:rgb(108, 42, 14)
 }
 
+q {
+    font-style: italic;
+}
+
+.villager {
+    border-left: 3px solid green;
+}
+
+.farmer {
+    border-left: 3px solid navy;
+}
