@@ -1,5 +1,5 @@
 body {
-    font-family: 'Lora', Serif;
+    font-family: 'Open Sans', sans-serif;
     color: rgb(45, 44, 54);
     /*background: linear-gradient(-5deg, rgb(255, 250, 244), rgb(255, 197, 127));
     background: -webkit-linear-gradient(-5deg, rgb(255, 250, 244), rgb(255, 197, 127)); */
@@ -10,7 +10,7 @@ body {
     background-size: cover;
     max-width: 90%;
     margin: auto;
-    
+
 }
 
 blockquote {
@@ -25,15 +25,12 @@ blockquote {
 }
 
 p {
-    font-family: 'Lora', serif;
     font-size: 16px;
     color: rgb(45, 44, 54);
     line-height: 19px;
-    
 }
 
 a {
-    font-family: 'Lora', serif;
     font-size: 16px;
     color: rgb(28, 23, 74)
 }
@@ -41,8 +38,9 @@ a {
 a:hover {
     color: rgb(162, 64, 21)
 }
+
 a:visited {
-    color:rgb(108, 42, 14)
+    color: rgb(108, 42, 14)
 }
 
 q {
@@ -71,7 +69,9 @@ h1:first-child {
     background-color: yellow;
 }
 
-table, th, td {
+table,
+th,
+td {
     border: 1px solid black;
 }
 
@@ -82,12 +82,13 @@ tr:nth-child(even) {
 tr:nth-child(odd) {
     background-color: white;
 }
+
 li:nth-child(1) {
     background-image: url("/bien.png");
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
-    padding-right: 1px;
+    padding-right: 50px;
 }
 
 li:nth-child(2) {
@@ -95,7 +96,7 @@ li:nth-child(2) {
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
-    padding-right: 1px;
+    padding-right: 50px;
 }
 
 li:nth-child(3) {
@@ -103,11 +104,64 @@ li:nth-child(3) {
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
-    padding-right: 1px;
+    padding-right: 50px;
 }
- /*tried using :first-child instead of :first-of-type but it wasn't showing*/
-p:first-of-type {
+
+/*tried using :first-child instead of :first-of-type but it wasn't showing*/
+header p:first-of-type {
     font-weight: bold;
 }
 
+figure {
+    width: auto;
+}
 
+img {
+    width: auto;
+}
+
+/* div {
+    display: flex;
+
+} */
+
+.flex1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.flex3 {
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+.flex3 h2 {
+    padding-right: 20px;
+}
+
+.flex3 figure {
+    order: -1;
+}
+
+.notification {
+    border: 3px solid gray;
+    background-color: honeydew;
+    text-align: center;
+    width: 200px;
+    padding: 5px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: right;
+}
