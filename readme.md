@@ -10,7 +10,7 @@ This exercise was made to learn more about HTML and CSS basics:
 - CSS positioning (flexboxes)
 - Webfonts
 
-(for more precisions see the [instructionsExercise.md](.../instructionsExercice.md) file)
+(for more info see the "instructionsExercise.md" file)
 
 ## Demo
 
