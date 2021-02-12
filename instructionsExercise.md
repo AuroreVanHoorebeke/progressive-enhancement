@@ -4,7 +4,6 @@
 - Slides: [Progressive Enhancement](https://app.ludus.one/8c042d9a-e404-4df5-b14e-48e3eb6e6014)
 - Duration: 3 days
 - Deadline: 28/08/2019 - 17:00
-- Submission form: https://forms.gle/z9boNboQ1RcPc7VM7
 
 ## 1. HTML is about semantics
 
